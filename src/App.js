@@ -66,132 +66,13 @@ export default class App extends Lightning.Component {
         },
       },
 
-      MyFlexBox: {
+      MyFlexBoxOne: {
         x: 20,
         y: 170,
         w: 1920,
         flex: { direction: "row", padding: 0, wrap: false },
         rect: false,
         type: MyFlexBox,
-        // MyFlexItem: {
-        //   w: 450,
-        //   h: 250,
-        //   flexItem: { margin: 10 },
-        //   rect: true,
-        //   color: 0xff444444,
-        //   UsingTexture: {
-        //     x: 0,
-        //     y: 0,
-        //     w: 450,
-        //     h: 250,
-        //     texture: {
-        //       type: lng.textures.ImageTexture,
-        //       src: "../static/images/image5.png",
-        //     },
-        //   },
-        //   MyFlexItemChildOne: {
-        //     x: 0,
-        //     y: 0,
-        //     rect: true,
-        //     w: 450,
-        //     h: 250,
-        //     color: "none",
-
-        //     MyFlexOverlyBlack: {
-        //       x: 0,
-        //       y: 0,
-        //       rect: true,
-        //       w: 450,
-        //       h: 250,
-        //       color: 0xff000000,
-        //       alpha: 0.6,
-        //     },
-
-        //     MyFlexBoxTitle: {
-        //       x: 30,
-        //       y: 140,
-        //       text: {
-        //         text: "Monster Hunter",
-        //         fontSize: 26,
-        //         fontStyle: "bold",
-        //       },
-        //     },
-
-        //     MyFlexBoxDesc: {
-        //       x: 30,
-        //       y: 180,
-        //       w: 400,
-        //       text: {
-        //         text:
-        //           "In a near-future world where an oppressive regime segregates...",
-        //         fontSize: 18,
-        //         lineHeight: 24,
-        //       },
-        //     },
-        //   },
-        // },
-        // MyFlexItemTwo: {
-        //   w: 450,
-        //   h: 250,
-        //   flexItem: { margin: 10 },
-        //   rect: true,
-        //   color: 0xff999999,
-        //   UsingTexture: {
-        //     x: 0,
-        //     y: 0,
-        //     w: 450,
-        //     h: 250,
-        //     texture: {
-        //       type: lng.textures.ImageTexture,
-        //       src: "../static/images/image6.png",
-        //     },
-        //   },
-        // },
-        // MyFlexItemThree: {
-        //   w: 450,
-        //   h: 250,
-        //   flexItem: { margin: 10 },
-        //   rect: true,
-        //   color: 0xff999999,
-        //   UsingTexture: {
-        //     x: 0,
-        //     y: 0,
-        //     w: 450,
-        //     h: 250,
-        //     texture: {
-        //       type: lng.textures.ImageTexture,
-        //       src: "../static/images/image7.png",
-        //     },
-        //   },
-        // },
-        // MyFlexItemFour: {
-        //   w: 450,
-        //   h: 250,
-        //   flexItem: { margin: 10 },
-        //   rect: true,
-        //   color: 0xff999999,
-        //   UsingTexture: {
-        //     x: 0,
-        //     y: 0,
-        //     w: 450,
-        //     h: 250,
-        //     texture: {
-        //       type: lng.textures.ImageTexture,
-        //       src: "../static/images/image1.png",
-        //     },
-        // },
-        // },
-        // MyFlexBoxItemWithFlexItemChildren: {
-        //   flex: { direction: "row", padding: 20 },
-        //   flexItem: { margin: 10 },
-        //   rect: true,
-        //   color: 0xff999999,
-        //   children: [
-        //     { text: { text: "line 1" } },
-        //     { text: { text: "line 2" } },
-        //     { text: { text: "line 3" } },
-        //   ],
-        // },
       },
 
       MyFlexBoxTitleTwo: {
@@ -211,94 +92,13 @@ export default class App extends Lightning.Component {
         flex: { direction: "row", padding: 0, wrap: false },
         rect: false,
         type: MyFlexBox,
-        // MyFlexItem: {
-        //   w: 450,
-        //   h: 250,
-        //   // src: "../static/images/logo.png",
-        //   // UsingShorthand: { x: 0, y: 0, src: "../static/images/logo.png" },
-        //   UsingTexture: {
-        //     x: 0,
-        //     y: 0,
-        //     w: 450,
-        //     h: 250,
-        //     texture: {
-        //       type: lng.textures.ImageTexture,
-        //       src: "../static/images/image1.png",
-        //     },
-        //   },
-        //   flexItem: { margin: 10 },
-        //   rect: true,
-        //   color: 0xff444444,
-        // },
-        // MyFlexItemTwo: {
-        //   w: 450,
-        //   h: 250,
-        //   flexItem: { margin: 10 },
-        //   rect: true,
-        //   color: 0xff999999,
-        //   UsingTexture: {
-        //     x: 0,
-        //     y: 0,
-        //     w: 450,
-        //     h: 250,
-        //     texture: {
-        //       type: lng.textures.ImageTexture,
-        //       src: "../static/images/image2.png",
-        //     },
-        //   },
-        // },
-        // MyFlexItemThree: {
-        //   w: 450,
-        //   h: 250,
-        //   flexItem: { margin: 10 },
-        //   rect: true,
-        //   color: 0xff999999,
-        //   UsingTexture: {
-        //     x: 0,
-        //     y: 0,
-        //     w: 450,
-        //     h: 250,
-        //     texture: {
-        //       type: lng.textures.ImageTexture,
-        //       src: "../static/images/image3.png",
-        //     },
-        //   },
-        // },
-        // MyFlexItemFour: {
-        //   w: 450,
-        //   h: 250,
-        //   flexItem: { margin: 10 },
-        //   rect: true,
-        //   color: 0xff999999,
-        //   UsingTexture: {
-        //     x: 0,
-        //     y: 0,
-        //     w: 450,
-        //     h: 250,
-        //     texture: {
-        //       type: lng.textures.ImageTexture,
-        //       src: "../static/images/image4.png",
-        //     },
-        //   },
-        // },
-        // MyFlexBoxItemWithFlexItemChildren: {
-        //   flex: { direction: "row", padding: 20 },
-        //   flexItem: { margin: 10 },
-        //   rect: true,
-        //   color: 0xff999999,
-        //   children: [
-        //     { text: { text: "line 1" } },
-        //     { text: { text: "line 2" } },
-        //     { text: { text: "line 3" } },
-        //   ],
-        // },
       },
     };
   }
   _init() {
     this.buttonIndex = 0;
     this.tag("Background").animation({}).start();
-    this.tag("MyFlexBox").items = [
+    this.tag("MyFlexBoxOne").items = [
       { image: "../static/images/image5.png" },
       { image: "../static/images/image6.png" },
       { image: "../static/images/image7.png" },
@@ -310,18 +110,13 @@ export default class App extends Lightning.Component {
       { image: "../static/images/image3.png" },
       { image: "../static/images/image4.png" },
     ].map((item) => ({ image: item.image }));
+    this._setState("MyFlexBoxOne");
   }
   static _states() {
     return [
-      class MyFlexBox extends this {
-        _handleLeft() {
-          this.buttonIndex = 0;
-        }
-        _handleRight() {
-          this.buttonIndex = 1;
-        }
+      class MyFlexBoxOne extends this {
         _getFocused() {
-          return this.tag("MyFlexBox").children[this.buttonIndex];
+          return this.tag("MyFlexBoxOne");
         }
       },
       class MyFlexBoxTwo extends this {
@@ -332,17 +127,13 @@ export default class App extends Lightning.Component {
     ];
   }
   _handleUp() {
-    this._setState("MyFlexBox");
+    console.log("up");
+    this._setState("MyFlexBoxOne");
   }
   _handleDown() {
+    console.log("down");
     this._setState("MyFlexBoxTwo");
   }
-  // _handleLeft() {
-  //   this.buttonIndex = 0;
-  // }
-  // _handleRight() {
-  //   this.buttonIndex = 1;
-  // }
 }
 
 class MyFlexBox extends Lightning.Component {
@@ -376,18 +167,18 @@ class MyFlexBox extends Lightning.Component {
     this._refocus(); // We need to force focus recalc.
   }
   _handleLeft() {
+    console.log("left");
     if (this.index > 0) {
       this.index--;
     }
-    console.log(this.index);
   }
   _handleRight() {
+    console.log("right");
     // we don't know exactly how many items the list can have
     // so we test it based on this component's child list
     if (this.index < this.children.length - 1) {
       this.index++;
     }
-    console.log(this.index);
   }
 }
 
@@ -422,7 +213,6 @@ class MyFlexBoxItem extends Lightning.Component {
     });
   }
   _focus() {
-    console.log("focused", this.item);
     this.patch({
       MyFlexOverlyBlack: {
         x: 0,
@@ -458,17 +248,10 @@ class MyFlexBoxItem extends Lightning.Component {
     });
   }
   _unfocus() {
-    console.log("unfocued", this.item);
     this.patch({
-      x: 0,
-      y: 0,
-      rect: true,
-      w: 450,
-      h: 250,
-      color: "none",
-      UsingTexture: {
-        texture: { type: lng.textures.ImageTexture, src: this.item.image },
-      },
+      MyFlexOverlyBlack: undefined,
+      MyFlexBoxTitle: undefined,
+      MyFlexBoxDesc: undefined,
     });
   }
 }
